@@ -1,0 +1,13 @@
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    color: 27374D; 
+    padding: 10px 20px; 
+    font-size: 25px; 
+    text-align: center;
+    padding-top: 400px;
+    font-weight: 1000px;
+}

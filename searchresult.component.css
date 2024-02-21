@@ -1,0 +1,42 @@
+
+  .container {
+    padding-top: 20px;
+  }
+
+  .card {
+    height: 20%;
+    transition: transform 0.3s;
+  }
+
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-title {
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    flex-grow: 1;
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+  }
+
+  .btn-group {
+    margin-bottom: 10px;
+  }
+
+  .text-muted {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
